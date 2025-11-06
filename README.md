@@ -1,98 +1,79 @@
-# Digital Ads Performance Tracker (Power BI)
+# Digital Ads Performance Tracker
 
-This Power BI dashboard provides a complete performance overview of digital marketing campaigns across platforms. It helps marketing teams evaluate campaign efficiency, audience engagement, and budget utilization to make data-driven optimization decisions.
-
----
-# Digital Ads Performance Tracker (Power BI)
-
-This Power BI dashboard provides a complete performance overview of digital marketing campaigns across platforms. It helps marketing teams evaluate campaign efficiency, audience engagement, and budget utilization to make data-driven optimization decisions.
+A Power BI dashboard designed to analyze and compare the performance of digital marketing campaigns across multiple platforms. This project helps marketing teams evaluate engagement levels, conversion effectiveness, and budget efficiency in order to make informed advertising decisions.
 
 ---
 
-## 📊 Dashboard Preview
+## 1. Project Title & Headline
+**Digital Ads Performance Tracker**  
+A data-driven analytics dashboard for measuring campaign reach, engagement, and cost efficiency across digital marketing channels.
+
+---
+
+## 2. Short Description & Purpose
+Digital marketing campaigns often span multiple platforms, making performance evaluation challenging.  
+This dashboard provides a **centralized performance view**, enabling stakeholders to:
+
+- Identify which platforms and ad formats perform best
+- Understand audience behavior and engagement trends
+- Optimize budget allocation for improved ROI
+- Monitor high-level KPIs in real time
+
+---
+
+## 3. Tech Stack
+| Technology / Tool | Purpose |
+|------------------|---------|
+| **Power BI** | Data visualization and dashboard development |
+| **Power Query** | Data transformation and preparation |
+| **DAX** | KPI calculations and business logic modeling |
+| **Excel / CSV Dataset** | Data source format used for analysis |
+
+---
+
+## 4. Data Source
+The dataset used in this dashboard contains multi-platform ad campaign performance metrics, including:
+
+- Impressions
+- Clicks
+- Engagements
+- Purchases
+- Spend data
+- Audience demographics (gender, age, region)
+- Ad type classifications (Video, Stories, Image, etc.)
+
+*(Sample dataset or schema can be added to `/Data` folder if sharable.)*
+
+---
+
+## 5. Features & Highlights
+- **Cross-platform KPI comparison** (CTR, CPC, Engagement Rate, Conversion Rate)
+- **Audience Insights by demographic and region**
+- **Trend Analysis** (weekly & hourly performance tracking)
+- **Ad Format Performance Evaluation** (video, image, stories, carousel)
+- **Interactive Filters** for campaign segment, platform, interest group, and time range
+- Enables **data-driven decisions** for budget planning and marketing optimization
+
+---
+
+## 6. Dashboard Preview / Screenshot
 
 > Main Overview Dashboard
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Screenshots/dashboard_main.png)
+
+*(If the image does not load, make sure that the file is named `dashboard_main.png` and placed inside a folder named `Screenshots`.)*
 
 ---
 
-## 🚀 Key Features
-- **Cross-platform performance tracking** (Instagram, Facebook, YouTube, etc.)
-- **Centralized KPIs:** Impressions, Clicks, CTR, Engagement Rate, Conversion Rate, Purchase Rate
-- **Audience Insights:** By gender, age, interest group, and geography
-- **Time-based Trend Analysis:** Weekly and hourly performance visualization
-- **Ad Format Comparison:** Performance of video, stories, image, and carousel ads
-- **Interactive Filters:** Campaign, platform, target interests, and metrics selector
+### Optional Next Steps (If you want to enhance the repo):
+- Add **additional screenshots** (Platform Comparison, Audience Insights view, etc.)
+- Upload **sample dataset / column dictionary**
+- Add **future improvements** section
 
 ---
 
-## 🛠️ Tools & Technologies Used
-| Component | Purpose |
-|---------|---------|
-| **Power BI** | Dashboard creation & visual analytics |
-| **Power Query** | Data cleaning & transformation |
-| **DAX** | Measure calculations & KPI logic |
-| **Excel / CSV Data** | Source dataset |
-
----
-
-## 🔍 Insights the Dashboard Helps Reveal
-- Which ad platforms generate the highest engagement and conversions
-- Which audience segments respond best to campaigns
-- What times/days drive the highest activity
-- Which ad formats are most cost-effective
-- Where budget can be reallocated for improved ROI
-
----
-
-## 🧠 Example DAX Measures
-```DAX
-CTR = DIVIDE(Clicks, Impressions)
-Engagement Rate = DIVIDE(Engagements, Impressions)
-CPC = DIVIDE(Spend, Clicks)
-Conversion Rate = DIVIDE(Purchases, Clicks)
-
-## 📊 Dashboard Preview
-
-> Main Overview Dashboard
-
-![Dashboard Preview](Screenshots/Digital Ads Tracker demo.png)
-
----
-
-## 🚀 Key Features
-- **Cross-platform performance tracking** (Instagram, Facebook, YouTube, etc.)
-- **Centralized KPIs:** Impressions, Clicks, CTR, Engagement Rate, Conversion Rate, Purchase Rate
-- **Audience Insights:** By gender, age, interest group, and geography
-- **Time-based Trend Analysis:** Weekly and hourly performance visualization
-- **Ad Format Comparison:** Performance of video, stories, image, and carousel ads
-- **Interactive Filters:** Campaign, platform, target interests, and metrics selector
-
----
-
-## 🛠️ Tools & Technologies Used
-| Component | Purpose |
-|---------|---------|
-| **Power BI** | Dashboard creation & visual analytics |
-| **Power Query** | Data cleaning & transformation |
-| **DAX** | Measure calculations & KPI logic |
-| **Excel / CSV Data** | Source dataset |
-
----
-
-## 🔍 Insights the Dashboard Helps Reveal
-- Which ad platforms generate the highest engagement and conversions
-- Which audience segments respond best to campaigns
-- What times/days drive the highest activity
-- Which ad formats are most cost-effective
-- Where budget can be reallocated for improved ROI
-
----
-
-## 🧠 Example DAX Measures
-```DAX
-CTR = DIVIDE(Clicks, Impressions)
-Engagement Rate = DIVIDE(Engagements, Impressions)
-CPC = DIVIDE(Spend, Clicks)
-Conversion Rate = DIVIDE(Purchases, Clicks)
+## Author
+**Mohammed Adeeb Siddiqui**  
+GitHub: https://github.com/adeebsidd22  
+LinkedIn: https://www.linkedin.com/in/mohammed-adeeb-siddiqui-88776b33b
