@@ -13,7 +13,7 @@ This Power BI dashboard provides a complete performance overview of digital mark
 
 > Main Overview Dashboard
 
-![Dashboard Preview](Screenshots/Digital Ads Tracker demo.png)
+![Dashboard Preview](dashboard.png)
 
 ---
 
