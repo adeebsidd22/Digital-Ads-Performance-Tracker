@@ -60,16 +60,7 @@ The dataset used in this dashboard contains multi-platform ad campaign performan
 
 > Main Overview Dashboard
 
-![Dashboard Preview](Screenshots/dashboard_main.png)
-
-*(If the image does not load, make sure that the file is named `dashboard_main.png` and placed inside a folder named `Screenshots`.)*
-
----
-
-### Optional Next Steps (If you want to enhance the repo):
-- Add **additional screenshots** (Platform Comparison, Audience Insights view, etc.)
-- Upload **sample dataset / column dictionary**
-- Add **future improvements** section
+![Dashboard Preview](dashboard.png)
 
 ---
 
